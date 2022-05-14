@@ -3,4 +3,5 @@ Fullstack open Typescript course.
 
 Exercises: 
 - Exercise 9.1 [x]
-- Exercise 9.2 [ ]
+- Exercise 9.2 [x]
+- Exercise 9.3 [ ]
