@@ -30,4 +30,13 @@ const calculateExercises = (hour_array: Array<number>, target: number) => {
     return myObj
 }
 
-console.log(calculateExercises([3, 0, 2, 4.5, 0, 3, 1], 2))
+// Loop arguments to array
+const arr: Array<number> = []
+var arraylen = process.argv.length
+for (var i = 2; i < arraylen -1; i++) {
+    arr.push(Number(process.argv[i]))
+}
+
+const target: number = Number(process.argv[arraylen-1])
+console.log(target)
+console.log(calculateExercises(arr, target))
